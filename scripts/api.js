@@ -1,7 +1,10 @@
 const adviceNumber = document.querySelector("#adviceNumber");
 const advice = document.querySelector("#advice");
+const next = document.querySelector(".dice")
 
 //Advice Paragraph ===============================================================
+
+const newAdvice = () => {
 
 const getAdvice = async () => { 
     const response = await fetch("https://api.adviceslip.com/advice");
@@ -40,3 +43,6 @@ getAdviceId()
         const adviceObject = data.slip.id;
         adviceNumber.innerHTML = `<p>${adviceObject}</p>`
 });
+};
+
+next.addEventListener("click", newAdvice);
