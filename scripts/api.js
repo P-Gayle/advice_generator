@@ -2,9 +2,9 @@ const adviceNumber = document.querySelector("#adviceNumber");
 const advice = document.querySelector("#advice");
 const next = document.querySelector(".dice")
 
-//Advice Paragraph ===============================================================
-
 const newAdvice = () => {
+
+//Advice Paragraph ===============================================================
 
 const getAdvice = async () => { 
     const response = await fetch("https://api.adviceslip.com/advice");
