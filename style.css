@@ -79,9 +79,9 @@ body {
     position: absolute;
     top: 150%;
     left:49%;
-    transform: translate(-50%, -50%);  
-  
+    transform: translate(-50%, -50%);   
 }
+
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
