@@ -20,19 +20,16 @@ body {
     height: 330px;
     background-color: hsl(217, 19%, 24%);
     border-radius: 15px;
-
 }
 
 h1 {
     font-size: 1rem;
     letter-spacing: 0.2rem;
-
 }
 
 
 .adviceNo {
-    color:hsl(150, 100%, 66%);
-    
+    color:hsl(150, 100%, 66%);   
 }
 
 .adviceText {
