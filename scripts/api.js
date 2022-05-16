@@ -25,7 +25,7 @@ getAdvice()
        
     });
 
-//Advice # =============================================================
+//Advice # ==========================================================================
 
 const getAdviceId = async () => { 
     const response = await fetch("https://api.adviceslip.com/advice");
